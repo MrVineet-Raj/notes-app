@@ -19,7 +19,7 @@ from .llm_clients import summarize_with_openai, summarize_with_gemini
 app = FastAPI(title="Notes FastAPI backend")
 
 
-KEEPALIVE_URL = "https://notapp-mrvineetraj.onrender.com/"
+KEEPALIVE_URL = "https://notesapp-mrvineetraj.onrender.com/"
 PING_INTERVAL_SECONDS = 300
 
 
